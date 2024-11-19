@@ -1,13 +1,16 @@
 body{
-    background-color: rgb(9, 3, 24);
+    background-color: #090318;
     font-size: 10px;
     margin: 0;
     padding: 0;
 }
+
+/***************************Header****************************/
+    
 .header{
     font-size: 2.5em;
     display: inline-flex;
-    background-color: rgb(9, 3, 0);
+    background-color: #090300;
     padding: 5px;
     height: min-content;
 }
@@ -34,6 +37,16 @@ body{
     margin: 0 calc(10%);
 }
 
+/****************Contenido*************/
+
+.contenido{
+    font-size: 2em;
+    color: #fff;
+}
+*::selection{
+    color: rgb(56, 2, 2);
+    background-color: #000000;
+}
 
 /*Mini libreria*/
 .link-none{
