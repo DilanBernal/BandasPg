@@ -1,0 +1,71 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+li {
+    margin: 20px;
+    background-color: black;
+    width: 300px;
+    text-align: calc(80%);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    overflow: visible;
+    border-radius: 30px;
+    clip-path: polygon(20% 40%,
+            40% 40%,
+            40.5% 39.5%,
+            41% 39%,
+            41.5% 35.5%,
+            41.58% 34%,
+            41.5% 32%,
+            41.4% 30%,
+            41.1% 28%,
+            40.7% 27%,
+            40.3% 26%,
+            39.8% 25%,
+            36% 22%,
+            35.6% 21%,
+            35.2% 20%,
+            35% 18.5%,
+            34.9% 17%,
+            34.8% 16%,
+            34.8% 14%,
+            36% 12%,
+            37% 11%,
+            38% 10%,
+            42% 8%,
+            45% 7.5%,
+            47% 7.8%,
+            49% 10%,
+            52% 16%,
+            53% 19%,
+            53.5% 23%,
+            54% 27%,
+            54.5% 27.8%,
+            55% 28.2%,
+            55.5% 28%,
+            56% 25%,
+            65% 2%,
+            71% 21%,
+            77% 48%,
+            70% 84%,
+            60% 64%,
+            48% 84%,
+            37% 80%,
+            41% 59%,
+            21% 61%,
+            10% 67%,
+            8% 30%,
+            19% 20%);
+}
+
+span {
+    position: absolute;
+    left: 50%;
+}

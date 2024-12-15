@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    padding: 0;
+    color: white;
+    margin: 0;
+    font-family: 'RocknRoll One', sans-serif;
+}
+:root{
+    --primaryBlue: #2D1E5C; 
+}
+.textBorderBlue{
+    text-shadow:
+        1px 1px 0.6px var(--primaryBlue),
+        -1px -1px 0.6px var(--primaryBlue),
+        0px -1px 0.6px var(--primaryBlue),
+        -1px 1px 0.6px var(--primaryBlue),
+        -1.5px -0px 0.6px var(--primaryBlue),
+        1.5px -0px 0.6px var(--primaryBlue),
+        -1px 1px 0.6px var(--primaryBlue),
+        1px -1px 0.6px var(--primaryBlue),
+        1px 1px 0.6px var(--primaryBlue)
+
+}
